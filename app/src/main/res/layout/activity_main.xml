@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <Button
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="Linear Layout Orientation Vertical"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout" />
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DatePicker" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="Linear Layout orientation Horizontal"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio Button" />
+
+        <Button
+            android:id="@+id/btnAlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alert Dialog Android" />
+
+        <Button
+            android:id="@+id/btnTypeInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InputType" />
+    </LinearLayout>
+</LinearLayout>

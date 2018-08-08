@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+android:orientation="vertical"
+tools:context=".ActivityRadioButton">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Select Gender : " />
+
+<RadioGroup
+    android:id="@+id/rg_gender"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/rb_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Male" />
+
+    <RadioButton
+        android:id="@+id/rb_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female" />
+</RadioGroup>
+
+<Button
+    android:id="@+id/bt_submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih OS yang dipakai : " />
+
+        <CheckBox
+            android:id="@+id/cb_windows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Windows" />
+
+        <CheckBox
+            android:id="@+id/cb_macos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Mac OS" />
+
+        <CheckBox
+            android:id="@+id/cb_linux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linux OS" />
+
+        <Button
+            android:id="@+id/bt_submit_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+</LinearLayout>

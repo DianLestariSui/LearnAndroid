@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Learn</string>
+    <string name="desc_linear_layout">Linear Layout adalah jenis layout dimana user menempatkan 1 objek (widget) per baris/kolom.</string>
+    <string name="desc_intent">Intent adalah sebuah kelas dalam programming Android yang berfungsi untuk perpindahan halaman</string>
+    <string name="desc_relative">bersifat flexsibel</string>
+
+    <string-array name="german_familienname">
+        <item>Fischer</item>
+        <item>Bauer</item>
+        <item>Scheider</item>
+        <item>Jäger</item>
+        <item>Müller</item>
+        <item>Schulz</item>
+        <item>Neumann</item>
+        <item>Schwarz</item>
+        <item>Lange</item>
+        <item>Köhler</item>
+        <item>Schumacher</item>
+    </string-array>
+</resources>
